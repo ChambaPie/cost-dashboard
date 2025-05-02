@@ -1,0 +1,5 @@
+MINIO_ENDPOINT = "https://cost-minio-hl.cost-dashboard.svc.cluster.local:9000"
+# MINIO_ENDPOINT = "https://localhost:9000"
+MINIO_ACCESS_KEY = "minio"
+MINIO_SECRET_KEY = "minio123"
+MINIO_BUCKET = "cost-dashboard"

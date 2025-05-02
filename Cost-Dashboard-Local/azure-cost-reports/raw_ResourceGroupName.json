@@ -1,0 +1,112 @@
+{
+  "id": "subscriptions/1cbd30d4-5a1f-4cb1-839f-5b8b66807c1d/providers/Microsoft.CostManagement/query/89c381ec-b63d-4653-8f4e-6652a2ce820d",
+  "name": "89c381ec-b63d-4653-8f4e-6652a2ce820d",
+  "type": "Microsoft.CostManagement/query",
+  "location": null,
+  "sku": null,
+  "eTag": null,
+  "properties": {
+    "nextLink": null,
+    "columns": [
+      {
+        "name": "PreTaxCost",
+        "type": "Number"
+      },
+      {
+        "name": "ResourceGroupName",
+        "type": "String"
+      },
+      {
+        "name": "Currency",
+        "type": "String"
+      }
+    ],
+    "rows": [
+      [
+        51.9005304425754,
+        "az-aks-blob-storage-volumes",
+        "INR"
+      ],
+      [
+        12.2599358161302,
+        "cloud-shell-storage-centralindia",
+        "INR"
+      ],
+      [
+        69.7450767276644,
+        "dlnp",
+        "INR"
+      ],
+      [
+        0.0,
+        "dlnpdev",
+        "INR"
+      ],
+      [
+        0.0,
+        "genairesourcegroup",
+        "INR"
+      ],
+      [
+        370.032809395348,
+        "hire.ai",
+        "INR"
+      ],
+      [
+        981.214405987815,
+        "labai",
+        "INR"
+      ],
+      [
+        4653.56748298417,
+        "mc_dlnp_starone_eastus",
+        "INR"
+      ],
+      [
+        8996.93390058741,
+        "mc_dlnpdev_stardev_centralus",
+        "INR"
+      ],
+      [
+        14.7503418955283,
+        "mc_opsdemox1_demox1_eastus",
+        "INR"
+      ],
+      [
+        3.16771465925689,
+        "mc_opsdemox_demox_eastus",
+        "INR"
+      ],
+      [
+        5.30809663314977,
+        "mc_opstr3_tr3_eastus",
+        "INR"
+      ],
+      [
+        4.30997385584852,
+        "mc_opstr4_tr4_eastus",
+        "INR"
+      ],
+      [
+        6.97096142549856,
+        "mc_opstr5_tr5_eastus",
+        "INR"
+      ],
+      [
+        6.21205235963449,
+        "mc_opstr6_tr6_eastus",
+        "INR"
+      ],
+      [
+        5.09779616734429,
+        "mc_opstrrr_trrr_eastus",
+        "INR"
+      ],
+      [
+        3.22149443413158,
+        "mc_opstttrrr_tttrrr_eastus",
+        "INR"
+      ]
+    ]
+  }
+}

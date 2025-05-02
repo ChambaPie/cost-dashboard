@@ -1,0 +1,24 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: cost-dashboard
+  namespace: cost-dashboard  # Same as your Vue app
+  labels:
+    app: cost-dashboard
+    project: cost-dashboard  # Project tag
+spec:
+  gateways:
+    - kubeflow/kubeflow-gateway  # Reuse Kubeflow's gateway
+  hosts:
+    - "*"
+  http:
+    - match:
+        - uri:
+            prefix: /cost-dashboard/
+      rewrite:
+        uri: / # Optional: Remove prefix
+      route:
+        - destination:
+            host: cost-dashboard.cost-dashboard.svc.cluster.local  # Internal service name
+            port:
+              number: 80

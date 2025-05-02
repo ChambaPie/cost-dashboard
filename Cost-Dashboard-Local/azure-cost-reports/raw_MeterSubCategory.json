@@ -1,0 +1,102 @@
+{
+  "id": "subscriptions/1cbd30d4-5a1f-4cb1-839f-5b8b66807c1d/providers/Microsoft.CostManagement/query/f274da87-ca36-4281-bbc1-c2e59e059d77",
+  "name": "f274da87-ca36-4281-bbc1-c2e59e059d77",
+  "type": "Microsoft.CostManagement/query",
+  "location": null,
+  "sku": null,
+  "eTag": null,
+  "properties": {
+    "nextLink": null,
+    "columns": [
+      {
+        "name": "PreTaxCost",
+        "type": "Number"
+      },
+      {
+        "name": "MeterSubCategory",
+        "type": "String"
+      },
+      {
+        "name": "Currency",
+        "type": "String"
+      }
+    ],
+    "rows": [
+      [
+        1102.38687797572,
+        "",
+        "INR"
+      ],
+      [
+        0.0,
+        "Bandwidth",
+        "INR"
+      ],
+      [
+        5972.29557061074,
+        "Ddsv5 Series",
+        "INR"
+      ],
+      [
+        22.4709736457356,
+        "Dv2/DSv2 Series",
+        "INR"
+      ],
+      [
+        2370.98901202085,
+        "Dv3/DSv3 Series",
+        "INR"
+      ],
+      [
+        124.228076360073,
+        "ESv3 Series VM",
+        "INR"
+      ],
+      [
+        12.2605232973984,
+        "Files",
+        "INR"
+      ],
+      [
+        0.550580184791721,
+        "Files v2",
+        "INR"
+      ],
+      [
+        1419.08821402927,
+        "IP Addresses",
+        "INR"
+      ],
+      [
+        1.21845913971127,
+        "Inter-Region",
+        "INR"
+      ],
+      [
+        181.642414463832,
+        "Premium SSD Managed Disks",
+        "INR"
+      ],
+      [
+        3227.33597516868,
+        "Standard",
+        "INR"
+      ],
+      [
+        750.203092608164,
+        "Standard SSD Managed Disks",
+        "INR"
+      ],
+      [
+        0.017836418006078,
+        "Tables",
+        "INR"
+      ],
+      [
+        0.004967448540124,
+        "Tiered Block Blob",
+        "INR"
+      ]
+    ]
+  }
+}

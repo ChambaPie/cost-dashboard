@@ -1,0 +1,1266 @@
+{
+  "GroupDefinitions": [
+    {
+      "Type": "DIMENSION",
+      "Key": "OPERATION"
+    }
+  ],
+  "ResultsByTime": [
+    {
+      "TimePeriod": {
+        "Start": "2025-04-22",
+        "End": "2025-04-29"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "NoOperation"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "2.52",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "A"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0116736",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "AAAA"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0011396",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ANY"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000152",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "AllocateAddressVPC"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "1.75342225",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "AssociateAddressVPC"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "6.804449985",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CAA"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000672",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CNAME"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0001388",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CloudShell data transfer"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000779",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CognitoUserPoolsOperation"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CompleteMultipartUpload"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000205",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CopyObject"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0001595",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CreateBucket"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000650753",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CreateDBInstance"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "3.3607718914",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CreateFileSystem:Lustre"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "48.045280886",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CreateGrant"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CreateOperation"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "33.6",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CreateSnapshot"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "10.4253361437",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CreateVolume-Gp2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "71.036811043",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CreateVolume-Gp3"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "49.9216011441",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CreateVolume-Sc1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "4.1574400056",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "CurrentKeys"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.2333333352",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "DNAME"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000012",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "DNSKEY"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0003944",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "DS"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000002",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "DescribeKey"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "DescribeNetworkInterfaces"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "47.075651355",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "DomainRegistration"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "14",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "GET"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "GeneralPurposeBuckets"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "GetBucketAntuConfiguration"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000004255",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "GetCostAndUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "1.93",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "GetObject"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0138626913",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "GetObjectForRepl"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0004819485",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "GetObjectReplTime"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000840607",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "HTTPS"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0002804",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "HeadBucket"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.00010788",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "HeadObject"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "5.48065264",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "HostedZone"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.5",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Hourly"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "HourlyStorageMetering"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0331529128",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "InitiateMultipartUpload"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000205",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "InterZone-In"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "2.8814808201",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "InterZone-Out"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "2.7370554692",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Invoke"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ListAccessPoints"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000000012",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ListAliases"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ListAllMyBuckets"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0001845547",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ListBucket"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0020737125",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ListBucketVersions"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000300572",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ListMRAPs"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000100152",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "LoadBalancing"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "33.0229878418",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "LoadBalancing-NLB-PublicIP-In"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000001601",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "LoadBalancing-NLB-PublicIP-Out"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000003152",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "LoadBalancing-PublicIP-In"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000029804",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "LoadBalancing-PublicIP-Out"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000814743",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "LoadBalancing:Application"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "76.9647183369",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "LoadBalancing:Network"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "21.1693964055",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "MX"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0002656",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "MetricStorage:AWS/S3"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "NS"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0003848",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "NSEC"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000016",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "NSEC3"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000002",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "NSEC3PARA"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000008",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "NatGateway"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "38.2789595111",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "PTR"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000004",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "PayPerRequestThroughput"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000244375",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "PublicIP-In"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0640612585",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "PublicIP-Out"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0315529342",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "PutLogEvents"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "PutObject"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0328505",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "PutObjectForRepl"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "PutObjectReplTime"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0001",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadACL"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0017958802",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadAccelerate"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000296286",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadAccountPublicAccessBlock"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000047665",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadBucketCors"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000028828",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadBucketIntelligentTiering"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000008284",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadBucketLifecycle"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0018002656",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadBucketOwnershipControls"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000317296",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadBucketPolicy"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000055315",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadBucketPublicAccessBlock"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000301092",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadBucketReplication"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000288298",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadBucketServerSideEncryption"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000305342",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadCostAllocation"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000313756",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadLogProps"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000292485",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadNotificationProps"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0017678592",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadObjectTagging"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000004096",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadRequestPaymentProps"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000292288",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ReadVersioningProps"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000329044",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "RunInstances"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "800.3794883742",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "SOA"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000992",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "SPF"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000084",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "SRV"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000576",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "SVCB"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000064",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Send"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000068725",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "SendRawEmail"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0006108356",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "StandardStorage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "2.2280846901",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "T3CPUCredits"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.00100185",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "TLSA"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000044",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "TXT"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0002432",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "USW1-TimedStorage-ByteHrs"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "24.3711045342",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Unknown"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "UploadPart"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000041",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "VPCPeering-In"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.4172652078",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "VPCPeering-Out"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0013234799",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "WriteBucketOwnershipControls"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.00004",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "WriteBucketPolicy"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0001950419",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "WriteBucketPublicAccessBlock"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.00004",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "WriteBucketServerSideEncryption"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000015",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "WriteCostAllocation"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000005",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "downloadLayer"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "3.9872458115",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": true
+    }
+  ],
+  "DimensionValueAttributes": [],
+  "ResponseMetadata": {
+    "RequestId": "b4fcf607-d956-436a-a78d-e7a39992ae6c",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Tue, 29 Apr 2025 17:35:43 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "10602",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "b4fcf607-d956-436a-a78d-e7a39992ae6c",
+      "cache-control": "no-cache"
+    },
+    "RetryAttempts": 0
+  }
+}

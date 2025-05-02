@@ -1,0 +1,65 @@
+apiVersion: apps/v1
+kind: Deployment  # Change from CronJob to Deployment
+metadata:
+  name: cost-data-collector
+  namespace: cost-dashboard
+  labels:
+    app: cost-data-collector
+    project: cost-dashboard
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cost-data-collector
+  template:
+    metadata:
+      labels:
+        app: cost-data-collector
+        project: cost-dashboard
+    spec:
+      imagePullSecrets:
+        - name: acr-secret
+      containers:
+      - name: cost-data-collector
+        image: nstarx.azurecr.io/cost-data-collector:v2
+        env:
+        - name: MINIO_ENDPOINT
+          value: "https://cost-minio-hl.cost-dashboard.svc.cluster.local:9000"
+        - name: MINIO_ACCESS_KEY
+          value: "minio"
+        - name: MINIO_SECRET_KEY
+          value: "minio123"
+        - name: MINIO_BUCKET
+          value: "cost-dashboard"
+        # AWS credentials
+        - name: AWS_ACCESS_KEY_ID
+          valueFrom:
+            secretKeyRef:
+              name: aws-credentials
+              key: aws_access_key_id
+        - name: AWS_SECRET_ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: aws-credentials
+              key: aws_secret_access_key
+        - name: AWS_DEFAULT_REGION
+          valueFrom:
+            secretKeyRef:
+              name: aws-credentials
+              key: aws_region
+        # Azure credentials
+        - name: AZURE_TENANT_ID
+          valueFrom:
+            secretKeyRef:
+              name: azure-credentials
+              key: azure_tenant_id
+        - name: AZURE_CLIENT_ID
+          valueFrom:
+            secretKeyRef:
+              name: azure-credentials
+              key: azure_client_id
+        - name: AZURE_CLIENT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: azure-credentials
+              key: azure_client_secret

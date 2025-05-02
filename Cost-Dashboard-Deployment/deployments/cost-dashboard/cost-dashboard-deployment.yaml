@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cost-dashboard
+  namespace: cost-dashboard  # Explicitly set namespace
+  labels:
+    app: cost-dashboard
+    project: cost-dashboard  # Project tag
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cost-dashboard
+      project: cost-dashboard  # Added to selector
+  template:
+    metadata:
+      labels:
+        app: cost-dashboard
+        project: cost-dashboard  # Project tag on pods
+    spec:
+      imagePullSecrets:
+        - name: acr-secret
+      containers:
+      - name: cost-dashboard
+        image: nstarx.azurecr.io/cost-dashboard:v4
+        ports:
+        - containerPort: 8501
+        env:
+        - name: MINIO_ENDPOINT
+          value: "https://cost-minio-hl.cost-dashboard.svc.cluster.local:9000"
+        - name: MINIO_ACCESS_KEY
+          value: "minio"
+        - name: MINIO_SECRET_KEY
+          value: "minio123"
+        - name: MINIO_BUCKET
+          value: "cost-dashboard"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cost-dashboard
+  namespace: cost-dashboard  # Explicitly set namespace
+  labels:
+    app: cost-dashboard
+    project: cost-dashboard  # Project tag
+spec:
+  ports:
+  - port: 80
+    targetPort: 8501
+    protocol: TCP
+  selector:
+    app: cost-dashboard
+    project: cost-dashboard  # Added to selector

@@ -1,0 +1,326 @@
+{
+  "GroupDefinitions": [
+    {
+      "Type": "TAG",
+      "Key": "Project"
+    },
+    {
+      "Type": "DIMENSION",
+      "Key": "REGION"
+    }
+  ],
+  "ResultsByTime": [
+    {
+      "TimePeriod": {
+        "Start": "2025-04-22",
+        "End": "2025-04-29"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "Project$",
+            "NoRegion"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "2.52",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "ap-northeast-2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "ap-south-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.2530266944",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "ap-south-2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "14.0038894312",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "eu-north-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0039089315",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "global"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "14.5148444",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "us-east-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "183.7454802681",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "us-east-2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "100.6295057491",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "us-west-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "297.8685635099",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Digital Human in a Box",
+            "us-east-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "2.1793027798",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$EUC",
+            "global"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$EUC",
+            "us-west-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "35.9545858677",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-HUB",
+            "us-west-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "272.7526462664",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-LAB",
+            "us-west-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "241.8399287983",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GenAI-Hub",
+            "us-west-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.2333333352",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "global"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "us-west-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "71.5591444637",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI-NVIDIA",
+            "global"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI-NVIDIA",
+            "us-west-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0088324",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Verity",
+            "ap-south-2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "4.4766400056",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "ap-south-2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "8.0633452353",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "us-west-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "37.8116083339",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$nstarxinc.com",
+            "us-east-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "11.666666676",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "ap-south-2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "7.4010169464",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": true
+    }
+  ],
+  "DimensionValueAttributes": [],
+  "ResponseMetadata": {
+    "RequestId": "0ad2c03e-d7bd-41e3-8141-b1d29687d08b",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Tue, 29 Apr 2025 17:35:53 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "2738",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "0ad2c03e-d7bd-41e3-8141-b1d29687d08b",
+      "cache-control": "no-cache"
+    },
+    "RetryAttempts": 0
+  }
+}

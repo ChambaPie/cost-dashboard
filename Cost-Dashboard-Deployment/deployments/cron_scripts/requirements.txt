@@ -1,0 +1,13 @@
+# AWS dependencies
+boto3>=1.26.0
+
+# Azure dependencies
+azure-identity>=1.12.0
+requests>=2.28.0
+
+# Data processing
+pandas>=1.5.0
+
+# Storage
+s3fs>=2023.1.0
+minio

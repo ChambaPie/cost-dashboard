@@ -1,0 +1,119 @@
+{
+  "id": "subscriptions/1cbd30d4-5a1f-4cb1-839f-5b8b66807c1d/providers/Microsoft.CostManagement/query/bfd50cac-f4a4-4810-acb0-03d2edbb4f9b",
+  "name": "bfd50cac-f4a4-4810-acb0-03d2edbb4f9b",
+  "type": "Microsoft.CostManagement/query",
+  "location": null,
+  "sku": null,
+  "eTag": null,
+  "properties": {
+    "nextLink": null,
+    "columns": [
+      {
+        "name": "PreTaxCost",
+        "type": "Number"
+      },
+      {
+        "name": "TagKey",
+        "type": "String"
+      },
+      {
+        "name": "TagValue",
+        "type": "String"
+      },
+      {
+        "name": "ResourceLocation",
+        "type": "String"
+      },
+      {
+        "name": "Currency",
+        "type": "String"
+      }
+    ],
+    "rows": [
+      [
+        12.2599358161302,
+        "project",
+        "shi labs",
+        "IN Central",
+        "INR"
+      ],
+      [
+        0.0,
+        "project",
+        "hire.ai",
+        "Intercontinental",
+        "INR"
+      ],
+      [
+        404.132693040023,
+        "project",
+        null,
+        "US Central",
+        "INR"
+      ],
+      [
+        8592.80120754739,
+        "project",
+        "dlnp",
+        "US Central",
+        "INR"
+      ],
+      [
+        0.575252806156604,
+        "project",
+        "shi labs",
+        "US East",
+        "INR"
+      ],
+      [
+        369.930691771527,
+        "project",
+        "hire.ai",
+        "US East",
+        "INR"
+      ],
+      [
+        981.214405987815,
+        "project",
+        "shi labs, telesign",
+        "US East",
+        "INR"
+      ],
+      [
+        2012.66322240809,
+        "project",
+        "dlnp",
+        "US East",
+        "INR"
+      ],
+      [
+        2811.11516399438,
+        "project",
+        null,
+        "US East",
+        "INR"
+      ],
+      [
+        0.0,
+        "project",
+        null,
+        "Unknown",
+        "INR"
+      ],
+      [
+        0.0,
+        "project",
+        "dlnp",
+        "Unknown",
+        "INR"
+      ],
+      [
+        0.0,
+        "project",
+        "shi labs",
+        "Unknown",
+        "INR"
+      ]
+    ]
+  }
+}

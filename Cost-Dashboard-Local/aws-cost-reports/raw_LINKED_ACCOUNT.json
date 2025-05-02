@@ -1,0 +1,86 @@
+{
+  "GroupDefinitions": [
+    {
+      "Type": "DIMENSION",
+      "Key": "LINKED_ACCOUNT"
+    }
+  ],
+  "ResultsByTime": [
+    {
+      "TimePeriod": {
+        "Start": "2025-04-22",
+        "End": "2025-04-29"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "131656363428"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "1307.3426897926",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "360430660708"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.1026789233",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "896263689921"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0409013766",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": true
+    }
+  ],
+  "DimensionValueAttributes": [
+    {
+      "Value": "131656363428",
+      "Attributes": {
+        "description": "Amol Patalay"
+      }
+    },
+    {
+      "Value": "360430660708",
+      "Attributes": {
+        "description": "NStarX - Others"
+      }
+    },
+    {
+      "Value": "896263689921",
+      "Attributes": {
+        "description": "NStarX - Training"
+      }
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "c932d7e0-178f-4e9a-b74a-82031d0d9326",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Tue, 29 Apr 2025 17:35:40 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "706",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "c932d7e0-178f-4e9a-b74a-82031d0d9326",
+      "cache-control": "no-cache"
+    },
+    "RetryAttempts": 0
+  }
+}

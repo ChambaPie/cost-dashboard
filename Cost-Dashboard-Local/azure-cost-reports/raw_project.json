@@ -1,0 +1,61 @@
+{
+  "id": "subscriptions/1cbd30d4-5a1f-4cb1-839f-5b8b66807c1d/providers/Microsoft.CostManagement/query/f5dd0c05-dc58-40ac-a64f-3a9a577d4a38",
+  "name": "f5dd0c05-dc58-40ac-a64f-3a9a577d4a38",
+  "type": "Microsoft.CostManagement/query",
+  "location": null,
+  "sku": null,
+  "eTag": null,
+  "properties": {
+    "nextLink": null,
+    "columns": [
+      {
+        "name": "PreTaxCost",
+        "type": "Number"
+      },
+      {
+        "name": "TagKey",
+        "type": "String"
+      },
+      {
+        "name": "TagValue",
+        "type": "String"
+      },
+      {
+        "name": "Currency",
+        "type": "String"
+      }
+    ],
+    "rows": [
+      [
+        12.8351886222868,
+        "project",
+        "shi labs",
+        "INR"
+      ],
+      [
+        369.930691771527,
+        "project",
+        "hire.ai",
+        "INR"
+      ],
+      [
+        981.214405987815,
+        "project",
+        "shi labs, telesign",
+        "INR"
+      ],
+      [
+        3215.2478570344,
+        "project",
+        null,
+        "INR"
+      ],
+      [
+        10605.4644299555,
+        "project",
+        "dlnp",
+        "INR"
+      ]
+    ]
+  }
+}

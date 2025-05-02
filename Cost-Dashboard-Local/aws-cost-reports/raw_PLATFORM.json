@@ -1,0 +1,56 @@
+{
+  "GroupDefinitions": [
+    {
+      "Type": "DIMENSION",
+      "Key": "PLATFORM"
+    }
+  ],
+  "ResultsByTime": [
+    {
+      "TimePeriod": {
+        "Start": "2025-04-22",
+        "End": "2025-04-29"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "NoOperatingSystem"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "511.6816365206",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Linux/UNIX"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "795.8046335719",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": true
+    }
+  ],
+  "DimensionValueAttributes": [],
+  "ResponseMetadata": {
+    "RequestId": "ebf37330-9936-4f12-a306-8dc6a609270e",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Tue, 29 Apr 2025 17:35:47 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "397",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "ebf37330-9936-4f12-a306-8dc6a609270e",
+      "cache-control": "no-cache"
+    },
+    "RetryAttempts": 0
+  }
+}

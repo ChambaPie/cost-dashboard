@@ -1,0 +1,133 @@
+{
+  "GroupDefinitions": [
+    {
+      "Type": "DIMENSION",
+      "Key": "REGION"
+    }
+  ],
+  "ResultsByTime": [
+    {
+      "TimePeriod": {
+        "Start": "2025-04-22",
+        "End": "2025-04-29"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "NoRegion"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "2.52",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ap-northeast-2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ap-south-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.2530266944",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "ap-south-2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "33.9448916185",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "eu-north-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0039089315",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "global"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "14.5148444",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "us-east-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "197.5914497239",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "us-east-2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "100.6295057491",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "us-west-1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "958.0286429751",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": true
+    }
+  ],
+  "DimensionValueAttributes": [],
+  "ResponseMetadata": {
+    "RequestId": "a14b7f9b-90c1-4047-a918-887464fca376",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Tue, 29 Apr 2025 17:35:44 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "1002",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "a14b7f9b-90c1-4047-a918-887464fca376",
+      "cache-control": "no-cache"
+    },
+    "RetryAttempts": 0
+  }
+}

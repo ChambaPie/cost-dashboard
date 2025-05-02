@@ -1,0 +1,52 @@
+{
+  "id": "subscriptions/1cbd30d4-5a1f-4cb1-839f-5b8b66807c1d/providers/Microsoft.CostManagement/query/1afe3e17-57cd-4b02-896f-02e186fb1938",
+  "name": "1afe3e17-57cd-4b02-896f-02e186fb1938",
+  "type": "Microsoft.CostManagement/query",
+  "location": null,
+  "sku": null,
+  "eTag": null,
+  "properties": {
+    "nextLink": null,
+    "columns": [
+      {
+        "name": "PreTaxCost",
+        "type": "Number"
+      },
+      {
+        "name": "ResourceLocation",
+        "type": "String"
+      },
+      {
+        "name": "Currency",
+        "type": "String"
+      }
+    ],
+    "rows": [
+      [
+        12.2599358161302,
+        "IN Central",
+        "INR"
+      ],
+      [
+        0.0,
+        "Intercontinental",
+        "INR"
+      ],
+      [
+        8996.93390058741,
+        "US Central",
+        "INR"
+      ],
+      [
+        6175.49873696796,
+        "US East",
+        "INR"
+      ],
+      [
+        0.0,
+        "Unknown",
+        "INR"
+      ]
+    ]
+  }
+}

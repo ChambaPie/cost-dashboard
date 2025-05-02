@@ -1,0 +1,11 @@
+#nstarx.azurecr.io/cost-data-collector-base:latest
+
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Copy only requirements for dependency installation
+COPY requirements.txt .
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt

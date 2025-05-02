@@ -1,0 +1,5030 @@
+{
+  "GroupDefinitions": [
+    {
+      "Type": "TAG",
+      "Key": "Project"
+    },
+    {
+      "Type": "DIMENSION",
+      "Key": "USAGE_TYPE"
+    }
+  ],
+  "ResultsByTime": [
+    {
+      "TimePeriod": {
+        "Start": "2025-04-22",
+        "End": "2025-04-29"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "Project$",
+            "NoUsageType"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "2.52",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APN2-TimedStorage-ByteHrs"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS3-CW:MetricMonitorUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS3-DataTransfer-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS3-DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS3-RDS:ChargedBackupUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0831791177",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS3-Requests-Tier1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.00019",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS3-Requests-Tier2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000068",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS3-TimedStorage-ByteHrs"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.1690847675",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS3-USE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0004819485",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS3-USE1-S3RTC-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000840607",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-APS1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-APS1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000048419",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-APS2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-APS2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000409979",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-APS3-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-APS3-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000623478",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-BUE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-BUE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000141",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-BoxUsage:t3.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "7.3886524544",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-CAN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-CAN1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000047839",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-DataTransfer-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-DataTransfer-Regional-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0008769352",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-EBS:SnapshotUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "3.4505130033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-EBS:VolumeUsage.gp3"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.6384",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-EBSOptimized:t3.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-EU-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-EU-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000038396",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-EUC1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-EUC1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000077023",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-EUW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-EUW2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000004788",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-PublicIPv4:InUseAddress"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "2.52",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-SAE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-SAE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000035",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-USE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-USE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.00062628",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-USE2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-USE2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0006757973",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-USW1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-USW1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000168765",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-USW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "APS5-USW2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0036297844",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "AttachmentsSize-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000068725",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "BoxUsage:g4dn.xlarge"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "82.861364386",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "BoxUsage:g5.12xlarge"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "59.1306",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "BoxUsage:t3.large"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "1.6045813888",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "BoxUsage:t3.micro"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.200584228",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "BoxUsage:t3.small"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "6.9888",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "CW:AlarmMonitorUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "CW:MetricMonitorUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "DNS-Queries"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0148444",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "DataTransfer-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.1558682517",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "DataTransfer-Regional-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0161564107",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "EBS:SnapshotUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "6.8721564735",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "EBS:VolumeUsage.gp2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.8111110988",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "EBS:VolumeUsage.gp3"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "4.0947555603",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "EBSOptimized:g4dn.xlarge"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "EBSOptimized:t3.small"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "EUN1-BoxUsage:t3.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0032040144",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "EUN1-DataTransfer-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "EUN1-DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000011717",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "EUN1-EBS:VolumeUsage.gp3"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0002912454",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "EUN1-EBSOptimized:t3.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "EUN1-PublicIPv4:InUseAddress"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0004125",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "Global-Bucket-Hrs-FreeTier"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "HostedZone"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.5",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "Intra-AWS-DNS-Queries"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "LCUUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0001854786",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "LoadBalancerUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.45",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "NatGateway-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "4.2351023754",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "NatGateway-Hours"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "5.13",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "RDS:ChargedBackupUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "3.2775927737",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "ReadRequestUnits"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000022375",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "Recipients-EC2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "Requests-Tier1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.00221",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "Requests-Tier2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0003912",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "Route53-Domains"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "14",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "TimedStorage-ByteHrs"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "1.0037349395",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "US-DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "US-Requests-Tier2-HTTPS"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-AFS1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-AFS1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-AKL1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-AKL1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000066",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000000142",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APIRequest"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "1.93",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APN1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000047",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APN2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APN2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000009765",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APN3-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APN3-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APS1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APS1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0001042265",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APS2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APS2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000210957",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APS3-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APS3-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0003697769",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APS3-S3RTC-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APS4-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APS4-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APS5-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APS5-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000263613",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APS9-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-APS9-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000023814",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-BKK1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-BKK1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-CAN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-CAN1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000037912",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-CCU1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-CCU1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-CloudFront-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-CloudFront-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-DEL1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-DEL1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-DEN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-DEN1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-DataTransfer-xAZ-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-DataTransfer-xAZ-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-EU-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-EU-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000009108",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-EUC1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-EUC1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000042002",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-EUN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-EUN1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000142187",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-EUS1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-EUS1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-EUW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-EUW2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000037425",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-EUW3-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-EUW3-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000010452",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-HAM1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-HAM1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-LAS1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-LAS1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-LAX1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-LAX1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-LOS1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-LOS1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-MCT1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-MCT1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-MEC1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-MEC1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-MES1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-MES1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-MNL1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-MNL1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-PDX1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-PDX1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-PER1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-PER1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-PHX1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-PHX1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-PublicIPv4:IdleAddress"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.906718045",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-PublicIPv4:InUseAddress"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "4.039240275",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-SAE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-SAE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000092",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-SEA1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-SEA1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-TPE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-TPE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-TimedStorage-ByteHrs"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0331529128",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-USE2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-USE2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000865444",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-USW1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-USW1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000743891",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-USW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-USW2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.00011026",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-VendedLog-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-WAW1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE1-WAW1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-APS1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-APS2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-APS3-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-BoxUsage:g6e.12xlarge"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "90.4902691382",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-BoxUsage:t2.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.1643848992",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-BoxUsage:t3.large"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.535553824",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-BoxUsage:t3.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.617840912",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-BoxUsage:t3.micro"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.1038642176",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-CAN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-CloudFront-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-CloudFront-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-DataTransfer-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.058202527",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-DataTransfer-Regional-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0115151086",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-EBS:VolumeUsage.gp2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0255555553",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-EBS:VolumeUsage.gp3"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "1.4423506169",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-EBSOptimized:t3.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-EU-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-EU-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000003741",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-EUC1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-EUN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-LCUUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000077565",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-LoadBalancerUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.2925",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-NatGateway-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "4.2397431775",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-NatGateway-Hours"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "2.16",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-PublicIPv4:IdleAddress"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.006704205",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-PublicIPv4:InUseAddress"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.47826808",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-ReadRequestUnits"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000022",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-Requests-Tier1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.002115",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-Requests-Tier2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0003284",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-TimedStorage-ByteHrs"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000001235",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-USE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-USE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000476281",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-USW1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-USW1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000279818",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-USW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-USW2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000100403",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USE2-WriteRequestUnits"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000124375",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APN1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APN2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APN2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APN3-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APN3-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APS1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APS1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000235282",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APS2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APS2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000162971",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APS3-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APS3-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000002595",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APS9-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-APS9-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000003482",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-CAN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-CAN1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000222923",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-DataProcessing-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0041735231",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-DataTransfer-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "1.7594647796",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-DataTransfer-Regional-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000627525",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EBS:SnapshotUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.1026666669",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EBS:VolumeP-IOPS.gp3"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "18.1999999944",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EBS:VolumeUsage.gp2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "58.2142777129",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EBS:VolumeUsage.gp3"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "11.3792000112",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EU-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EU-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000251",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EUC1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EUC1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000265127",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EUN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EUS1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EUW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EUW2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000155764",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EUW3-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-EUW3-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000003658",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-LCUUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0185516988",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-Lambda-GB-Second"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-LoadBalancerUsage"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "130.3008",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-MCT1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-MCT1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000033",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-MEC1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-MXC1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-PublicIPv4:InUseAddress"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "51.19885275",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-Request"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-Requests-Tier2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.00000352",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-SAE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-SAE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000304",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-TimedStorage-ByteHrs"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "24.3725593078",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-USE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-USE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0001233902",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-USE2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-USE2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "2.3176671523",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-USW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "USW1-USW2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000518642",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "WriteRequestUnits"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000075625",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "us-east-1-KMS-Requests"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$",
+            "us-east-2-KMS-Requests"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Digital Human in a Box",
+            "BoxUsage:t3.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "2.1730684768",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Digital Human in a Box",
+            "DataTransfer-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Digital Human in a Box",
+            "DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0024019505",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Digital Human in a Box",
+            "DataTransfer-Regional-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0037740376",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Digital Human in a Box",
+            "EBSOptimized:t3.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Digital Human in a Box",
+            "USE1-CloudFront-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Digital Human in a Box",
+            "USE1-CloudFront-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Digital Human in a Box",
+            "USE1-EU-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Digital Human in a Box",
+            "USE1-EU-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000002442",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Digital Human in a Box",
+            "USE1-USE2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Digital Human in a Box",
+            "USE1-USE2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000580707",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$EUC",
+            "Global-Bucket-Hrs-FreeTier"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$EUC",
+            "USW1-BoxUsage:t3.large"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "33.3312",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$EUC",
+            "USW1-DataTransfer-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$EUC",
+            "USW1-DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0067217869",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$EUC",
+            "USW1-DataTransfer-Regional-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "1.9210401035",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$EUC",
+            "USW1-Requests-Tier2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000044",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$EUC",
+            "USW1-TimedStorage-ByteHrs"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.6956102391",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$EUC",
+            "USW1-USE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$EUC",
+            "USW1-USE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000093382",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-HUB",
+            "USW1-AmazonEKS-Hours:perCluster"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "16.8",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-HUB",
+            "USW1-BoxUsage:g4dn.xlarge"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "242.242651025",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-HUB",
+            "USW1-BoxUsage:t3.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "7.6124978384",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-HUB",
+            "USW1-BoxUsage:t3.small"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "3.791410236",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-HUB",
+            "USW1-CPUCredits:t3"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.00100185",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-HUB",
+            "USW1-DataTransfer-AZ-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-HUB",
+            "USW1-DataTransfer-AZ-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-HUB",
+            "USW1-DataTransfer-Regional-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "1.8864966293",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-HUB",
+            "USW1-VpcPeering-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.4172652078",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-HUB",
+            "USW1-VpcPeering-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0013234799",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-LAB",
+            "USW1-BoxUsage:g4dn.xlarge"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "232.452691073",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-LAB",
+            "USW1-BoxUsage:t3.large"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "9.2981262112",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-LAB",
+            "USW1-CloudFront-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-LAB",
+            "USW1-CloudFront-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-LAB",
+            "USW1-DataTransfer-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-LAB",
+            "USW1-DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0020355347",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-LAB",
+            "USW1-DataTransfer-Regional-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0870171894",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-LAB",
+            "USW1-USE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-LAB",
+            "USW1-USE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000584621",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-LAB",
+            "USW1-USW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-LAB",
+            "USW1-USW2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000003279",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GenAI-Hub",
+            "us-west-1-KMS-Keys"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.2333333352",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "Global-Bucket-Hrs-FreeTier"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-AmazonEKS-Hours:perCluster"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "16.8",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-CloudFront-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-CloudFront-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-CognitoUserPoolsMAU"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-DataTransfer-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0014771229",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-DataTransfer-Regional-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0139102303",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-PublicIPv4:IdleAddress"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.84",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-Requests-Tier1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.031108",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-Requests-Tier2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "5.48604496",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-Storage.SSD.50"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "47.5999999944",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-TimedStorage-ByteHrs"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.3552960831",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-USW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-USW2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000114847",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-VpcPeering-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0013428756",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI",
+            "USW1-VpcPeering-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.4299537127",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI-NVIDIA",
+            "Global-Bucket-Hrs-FreeTier"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI-NVIDIA",
+            "USW1-DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.004518999",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI-NVIDIA",
+            "USW1-Requests-Tier1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.00022",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI-NVIDIA",
+            "USW1-Requests-Tier2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000077",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI-NVIDIA",
+            "USW1-TimedStorage-ByteHrs"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0029037638",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI-NVIDIA",
+            "USW1-USE2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0011126372",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Verity",
+            "APS5-EBS:VolumeUsage.gp2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.3192",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Verity",
+            "APS5-EBS:VolumeUsage.sc1"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "4.1574400056",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-APS1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-APS1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000809941",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-APS2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-APS2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0018832879",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-APS3-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-APS3-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000077702",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-BoxUsage:t3.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "7.4121475456",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-CAN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-CAN1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000047798",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-DataTransfer-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-DataTransfer-Regional-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000924886",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-EBS:VolumeUsage.gp3"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.6384",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-EBSOptimized:t3.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-EU-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-EU-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000044544",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-EUC1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-EUC1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000076792",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-EUW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-EUW2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000047501",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-PER1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-PER1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000141",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-SAE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-SAE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000035",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-USE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-USE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.003400243",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-USE2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-USE2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0007359256",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-USW1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-USW1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000081466",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-USW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms",
+            "APS5-USW2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0057347552",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-APE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-APE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000015",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-APN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-APN2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-APS1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-APS2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-APS3-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-CAN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-CloudFront-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-CloudFront-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-DataTransfer-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.002316977",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-DataTransfer-Regional-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "1.7668491711",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-EBS:VolumeP-IOPS.gp3"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-EBS:VolumeUsage.gp3"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "13.5282037159",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-EUC1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-EUN1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-EUW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-EUW3-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-NatGateway-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "14.4501139582",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-NatGateway-Hours"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "8.064",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-SAE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-USE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-USE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0001241304",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-USE2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-USW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub",
+            "USW1-USW2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000003798",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$nstarxinc.com",
+            "EBS:VolumeUsage.gp2"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "11.666666676",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-BoxUsage:t3.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "7.4001386816",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-DataTransfer-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-DataTransfer-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-DataTransfer-Regional-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0008702289",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-EBSOptimized:t3.medium"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-EU-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-EU-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000041974",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-SAE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-SAE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.000000007",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-USE1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-USE1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000005166",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-USE2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-USE2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000026179",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-USW1-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-USW1-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000000581",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-USW2-AWS-In-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity",
+            "APS5-USW2-AWS-Out-Bytes"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0000006389",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": true
+    }
+  ],
+  "DimensionValueAttributes": [],
+  "ResponseMetadata": {
+    "RequestId": "5356b91e-8b7e-416b-b9b8-59a6880335c9",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Tue, 29 Apr 2025 17:35:57 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "46987",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "5356b91e-8b7e-416b-b9b8-59a6880335c9",
+      "cache-control": "no-cache"
+    },
+    "RetryAttempts": 0
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "subscriptions/1cbd30d4-5a1f-4cb1-839f-5b8b66807c1d/providers/Microsoft.CostManagement/query/f80ee03a-0b3c-4e90-abf5-d844a3000852",
+  "name": "f80ee03a-0b3c-4e90-abf5-d844a3000852",
+  "type": "Microsoft.CostManagement/query",
+  "location": null,
+  "sku": null,
+  "eTag": null,
+  "properties": {
+    "nextLink": null,
+    "columns": [
+      {
+        "name": "PreTaxCost",
+        "type": "Number"
+      },
+      {
+        "name": "ResourceType",
+        "type": "String"
+      },
+      {
+        "name": "Currency",
+        "type": "String"
+      }
+    ],
+    "rows": [
+      [
+        931.845507071996,
+        "microsoft.compute/disks",
+        "INR"
+      ],
+      [
+        124.228450021762,
+        "microsoft.compute/virtualmachines",
+        "INR"
+      ],
+      [
+        8366.97236048179,
+        "microsoft.compute/virtualmachinescalesets",
+        "INR"
+      ],
+      [
+        981.214405987815,
+        "microsoft.containerregistry/registries",
+        "INR"
+      ],
+      [
+        0.0,
+        "microsoft.insights/metricalerts",
+        "INR"
+      ],
+      [
+        0.10211762382113,
+        "microsoft.logic/workflows",
+        "INR"
+      ],
+      [
+        69.7450767276644,
+        "microsoft.monitor/accounts",
+        "INR"
+      ],
+      [
+        3227.33597516868,
+        "microsoft.network/loadbalancers",
+        "INR"
+      ],
+      [
+        1419.08821402927,
+        "microsoft.network/publicipaddresses",
+        "INR"
+      ],
+      [
+        51.3252776364188,
+        "microsoft.recoveryservices/vaults",
+        "INR"
+      ],
+      [
+        12.8351886222868,
+        "microsoft.storage/storageaccounts",
+        "INR"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+# Run daily at 4 AM EST (9 AM UTC)
+0 9 * * * /app/execute.sh >> /var/log/cron.log 2>&1

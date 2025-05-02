@@ -1,0 +1,13 @@
+auth:
+    rootUser: minio
+    rootPassword: "minio123"
+    existingSecret: ""
+    forcePassword: false
+#creds:
+#  accessKey: minio # Replace with your desired access key (username)
+#  secretKey: yourSecurePassword123! # Replace with your desired secret key (password)
+persistence:
+  enabled: true
+  size: 100Mi
+commonLabels:
+  project: cost-dashboard

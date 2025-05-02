@@ -1,0 +1,177 @@
+{
+  "GroupDefinitions": [
+    {
+      "Type": "TAG",
+      "Key": "Project"
+    }
+  ],
+  "ResultsByTime": [
+    {
+      "TimePeriod": {
+        "Start": "2025-04-22",
+        "End": "2025-04-29"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "Project$"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "613.5392189842",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Digital Human in a Box"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "2.1793027798",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$EUC"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "35.9545858677",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-HUB"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "272.7526462664",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GENAI-LAB"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "241.8399287983",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$GenAI-Hub"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.2333333352",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "71.5591444637",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$SHI-NVIDIA"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "0.0088324",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$Verity"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "4.4766400056",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$frappe-hrms"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "8.0633452353",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$genai-hub"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "37.8116083339",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$nstarxinc.com"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "11.666666676",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Project$verity"
+          ],
+          "Metrics": {
+            "AmortizedCost": {
+              "Amount": "7.4010169464",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": true
+    }
+  ],
+  "DimensionValueAttributes": [],
+  "ResponseMetadata": {
+    "RequestId": "93b61400-9e28-4a4c-aa52-03d75a8ca355",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Tue, 29 Apr 2025 17:35:49 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "1470",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "93b61400-9e28-4a4c-aa52-03d75a8ca355",
+      "cache-control": "no-cache"
+    },
+    "RetryAttempts": 0
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "subscriptions/1cbd30d4-5a1f-4cb1-839f-5b8b66807c1d/providers/Microsoft.CostManagement/query/6970b4c7-974b-49a1-9c24-f1ff50c510e4",
+  "name": "6970b4c7-974b-49a1-9c24-f1ff50c510e4",
+  "type": "Microsoft.CostManagement/query",
+  "location": null,
+  "sku": null,
+  "eTag": null,
+  "properties": {
+    "nextLink": null,
+    "columns": [
+      {
+        "name": "PreTaxCost",
+        "type": "Number"
+      },
+      {
+        "name": "MeterCategory",
+        "type": "String"
+      },
+      {
+        "name": "Currency",
+        "type": "String"
+      }
+    ],
+    "rows": [
+      [
+        69.7450767276644,
+        "Azure Monitor",
+        "INR"
+      ],
+      [
+        51.3252776364188,
+        "Backup",
+        "INR"
+      ],
+      [
+        1.21845913971127,
+        "Bandwidth",
+        "INR"
+      ],
+      [
+        981.214405987815,
+        "Container Registry",
+        "INR"
+      ],
+      [
+        3227.33597516868,
+        "Load Balancer",
+        "INR"
+      ],
+      [
+        0.10211762382113,
+        "Logic Apps",
+        "INR"
+      ],
+      [
+        944.679414420732,
+        "Storage",
+        "INR"
+      ],
+      [
+        8489.98363263739,
+        "Virtual Machines",
+        "INR"
+      ],
+      [
+        1419.08821402927,
+        "Virtual Network",
+        "INR"
+      ]
+    ]
+  }
+}
