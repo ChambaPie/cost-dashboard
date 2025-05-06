@@ -22,7 +22,7 @@ spec:
         - name: acr-secret
       containers:
       - name: cost-dashboard
-        image: nstarx.azurecr.io/cost-dashboard:v4
+        image: nstarx.azurecr.io/cost-dashboard:v6
         ports:
         - containerPort: 8501
         env:

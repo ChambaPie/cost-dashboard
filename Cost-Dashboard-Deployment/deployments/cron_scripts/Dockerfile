@@ -6,11 +6,7 @@ FROM nstarx.azurecr.io/cost-data-collector-base:latest
 WORKDIR /app
 
 # Copy application code
-COPY get_aws_costs_cron.py .
-COPY get_azure_costs_cron.py .
-COPY execute.sh .
-COPY startup.sh .
-COPY cronjob .
+COPY . .
 
 # Make scripts executable
 RUN chmod +x /app/execute.sh

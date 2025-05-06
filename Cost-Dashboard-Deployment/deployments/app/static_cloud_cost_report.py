@@ -524,9 +524,11 @@ def get_azure_costs_from_files():
             key=os.environ.get("MINIO_ACCESS_KEY", MINIO_ACCESS_KEY),
             secret=os.environ.get("MINIO_SECRET_KEY", MINIO_SECRET_KEY),
             use_ssl=True,
-            client_kwargs={'verify': False}
+            client_kwargs={'verify': False},
+            use_listings_cache=False,  # Disable cache
+            skip_instance_cache=True   # Skip instance cache
         )
-        
+                
         # Path to Azure cost reports directory in MinIO bucket
         azure_dir = f"{MINIO_BUCKET}/azure-cost-reports"
         

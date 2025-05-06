@@ -20,9 +20,8 @@ function run_script_with_retry {
   until [ $n -ge $MAX_RETRIES ]; do
     echo "[$script_name] Attempt $((n+1)) of $MAX_RETRIES"
     
-    # Run the script
-    python "$script"
-    status=$?
+    # Run the script with error handling for all types of errors
+    python "$script" || status=$?
     
     if [ $status -eq 0 ]; then
       echo "[$script_name] Successfully completed at $(date)"

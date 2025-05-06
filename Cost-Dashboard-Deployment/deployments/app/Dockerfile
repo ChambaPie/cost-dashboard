@@ -1,4 +1,4 @@
-#nstarx.azurecr.io/cost-dashboard-base:v4
+#nstarx.azurecr.io/cost-dashboard:v6
 
 # Use your base image
 FROM nstarx.azurecr.io/cost-dashboard-base:latest
